@@ -1,4 +1,13 @@
 import $ from "jquery";
+import Vue from "vue";
+
+
+var app = new Vue({
+    el: '#app',
+    data: {
+        message: 'Hello Vue!'
+    }
+});
 
 $('p').css('color', 'red');
 

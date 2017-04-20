@@ -21,5 +21,10 @@ module.exports = {
     stats: {
         colors: true
     },
+    resolve: {
+        alias: {
+            vue: 'vue/dist/vue.js'
+        }
+    },
     devtool: 'source-map'
 };
